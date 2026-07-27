@@ -34,7 +34,7 @@ const projects = [
     title: "Expense Tracker",
     description:
       "A React expense tracker that allows users to add, categorize, filter, and manage expenses while storing data locally in the browser.",
-    github: "YOUR_GITHUB_LINK",
+    github: "https://github.com/darpan005/Mern_Stack",
     demo: "",
     image: "/projects/expense-tracker.png",
   },
