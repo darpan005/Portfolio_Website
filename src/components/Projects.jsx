@@ -39,14 +39,14 @@ const projects = [
     image: "/projects/expense-tracker.png",
   },
 
-  {
-    title: "Weather Dashboard",
-    description:
-      "A responsive weather dashboard built with React that displays current weather information using a weather API with a clean and modern interface.",
-    github: "YOUR_GITHUB_LINK",
-    demo: "",
-    image: "/projects/weather-dashboard.png",
-  },
+  // {
+  //   title: "Weather Dashboard",
+  //   description:
+  //     "A responsive weather dashboard built with React that displays current weather information using a weather API with a clean and modern interface.",
+  //   github: "YOUR_GITHUB_LINK",
+  //   demo: "",
+  //   image: "/projects/weather-dashboard.png",
+  // },
 ];
 
 function Projects() {
