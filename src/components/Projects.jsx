@@ -25,7 +25,7 @@ const projects = [
     title: "Movie Search App",
     description:
       "A React application that fetches movie information from the OMDb API. Users can search movies and view posters, ratings, release year, and other details.",
-    github: "YOUR_GITHUB_LINK",
+    github: "https://github.com/darpan005/Mern_Stack",
     demo: "",
     image: "/projects/movie-search.png",
   },
