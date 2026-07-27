@@ -1,0 +1,27 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0F2FE"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect x="4" y="4" width="232" height="232" rx="52" fill="url(#bgGrad)"/>
+
+  <!-- Left angle bracket -->
+  <path d="M78 78 L48 120 L78 162" fill="none" stroke="url(#textGrad)" stroke-width="12"
+        stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+
+  <!-- Right angle bracket -->
+  <path d="M162 78 L192 120 L162 162" fill="none" stroke="url(#textGrad)" stroke-width="12"
+        stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+
+  <!-- DP Monogram -->
+  <text x="120" y="150" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-weight="700"
+        font-size="72" fill="url(#textGrad)" text-anchor="middle">DP</text>
+</svg>
