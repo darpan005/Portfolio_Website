@@ -47,6 +47,7 @@
 }
 
 .hero-image img {
+  margin-right: 150px;
   width: 320px;
   height: 320px;
   object-fit: cover;
