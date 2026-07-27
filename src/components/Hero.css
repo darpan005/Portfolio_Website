@@ -46,6 +46,13 @@
   gap: 8px;
 }
 
+/* Hero Image */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-image img {
   width: 320px;
   height: 320px;
@@ -54,19 +61,76 @@
   border: 4px solid var(--accent);
 }
 
+/* ===========================
+   Tablet & Mobile
+=========================== */
+
 @media (max-width: 900px) {
   .hero {
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding-top: 140px;
+    padding-top: 100px;
+    gap: 30px;
   }
 
-  .hero-buttons {
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-image {
+    width: 100%;
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .hero-image img {
     width: 220px;
     height: 220px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+}
+
+/* ===========================
+   Small Mobile Phones
+=========================== */
+
+@media (max-width: 480px) {
+  .hero {
+    padding-top: 90px;
+    gap: 25px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.7rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.3rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hero-buttons .btn {
+    width: 250px;
+    justify-content: center;
   }
 }
