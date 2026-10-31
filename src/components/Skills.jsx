@@ -1,23 +1,14 @@
+import "./Skills.css";
 import { motion } from "framer-motion";
-import {
-  FaReact,
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaNodeJs,
-  FaGitAlt,
-  FaGithub,
-} from "react-icons/fa";
+import {FaReact, FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaGitAlt, FaGithub} from "react-icons/fa";
 import { SiExpress, SiMongodb, SiMysql, SiPostman } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
-import "./Skills.css";
-import { SiVercel, SiNpm } from "react-icons/si";
-import {
-  FaMobileAlt,
-  FaNetworkWired,
-  FaPuzzlePiece,
-  FaCodeBranch,
-} from "react-icons/fa";
+import { SiVercel, SiNpm, SiDotnet, SiDependencycheck} from "react-icons/si";
+import { FaNetworkWired, FaLayerGroup} from "react-icons/fa";
+import { TbBrandCSharp,TbBrandLinqpad } from "react-icons/tb";
+import { DiMsqlServer,DiDotnet } from "react-icons/di";
+import { LiaObjectGroup } from "react-icons/lia";
+import { IoMdCreate } from "react-icons/io";
 
 const categories = [
   {
@@ -32,6 +23,9 @@ const categories = [
   {
     title: "Backend",
     skills: [
+      {name:"C#", icon: <TbBrandCSharp/>},
+      {name:"ASP.NET", icon: <SiDotnet/>},
+      {name:"LINQ", icon: <TbBrandLinqpad/>},
       { name: "Node.js", icon: <FaNodeJs /> },
       { name: "Express.js", icon: <SiExpress /> },
     ],
@@ -39,8 +33,11 @@ const categories = [
   {
     title: "Database",
     skills: [
-      { name: "MongoDB", icon: <SiMongodb /> },
+      {name: "SQL Server", icon:<DiMsqlServer/>},
       { name: "SQL", icon: <SiMysql /> },
+      { name: "MongoDB", icon: <SiMongodb /> },
+      
+      
     ],
   },
   {
@@ -57,10 +54,12 @@ const categories = [
   {
     title : "Core Concepts",
     skills: [
-      {name: "Responsive Design", icon: <FaMobileAlt />  },
-      {name: "REST APIs", icon: <FaNetworkWired />  },
-      {name: "Component Based Architecture ", icon: <FaPuzzlePiece />},
-      {name: "Responsive-Design ", icon: <FaCodeBranch />},
+      {name: "REST APIs", icon: <FaNetworkWired />  },    
+      {name: "Entity Framework Core", icon: <DiDotnet />},
+      {name: "CRUD Operations", icon: < IoMdCreate />},
+      {name: "Object-Oriented Programming ", icon: <LiaObjectGroup />},
+      {name: "Dependency Injection", icon: <SiDependencycheck />},
+      {name: "Layered Architecture", icon: <FaLayerGroup />},
     ],
   },
 ];

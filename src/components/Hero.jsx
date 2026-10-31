@@ -17,9 +17,9 @@ function Hero() {
       >
         <p className="greeting">Hi, I'm</p>
         <h1>Darpan Patel</h1>
-        <h2>Aspiring MERN Stack Developer</h2>
+        <h2>.NET Developer | C# & ASP.NET Core</h2>
         <br></br>
-        <p className="subtitle">Passionate about <b>React</b>, <b>JavaScript</b> & <b>Full Stack</b> Development</p>
+        <p className="subtitle">Passionate about <b>C#</b> ,<b>ASP.NET</b> ,<b>Core Web APIs</b> ,<b>React</b> and <b>Full Stack</b> Development</p>
 
         <div className="hero-buttons">
           <button className="btn btn-primary" onClick={() => scrollTo("projects")}>

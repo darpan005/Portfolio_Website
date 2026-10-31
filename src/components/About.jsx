@@ -16,15 +16,11 @@ function About() {
         transition={{ duration: 0.6 }}
       >
         <p>
-          I'm a Computer Engineering student with a strong interest in web
-          development and problem-solving. I enjoy building responsive and
-          user-friendly web applications using React, JavaScript, and the MERN
-          stack. Over the past few months, I've completed multiple frontend
-          projects to strengthen my React skills and I'm currently expanding
-          into full-stack development with Node.js, Express.js, and MongoDB. I'm
-          actively looking for internship opportunities where I can contribute
-          to real-world projects, learn from experienced developers, and
-          continue growing as a software engineer.
+          I am a Computer Engineering student focused on building robust backend
+          systems and RESTful APIs using C# and ASP.NET Core. Experienced in
+          working with Entity Framework Core, SQL Server, and integrating modern
+          frontends with React. Seeking opportunities to contribute as a .NET /
+          Backend Developer.
         </p>
 
         <div className="about-stats">
@@ -33,8 +29,8 @@ function About() {
             <p>Full Stack Internship</p>
           </div>
           <div className="stat-card">
-            <h3>6+</h3>
-            <p>React Mini Projects</p>
+            <h3>4+</h3>
+            <p>.NET & Web API Projects</p>
           </div>
           <div className="stat-card">
             <h3>7th</h3>
