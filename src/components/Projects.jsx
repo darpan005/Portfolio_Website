@@ -3,6 +3,22 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import "./Projects.css";
 
 const projects = [
+    {
+    title: "JobTrack",
+    description:
+      "A full-stack web application with a secure ASP.NET Core Web API backend and React frontend. Implements full CRUD operations, database management using Entity Framework Core, and complete API testing via Swagger and Postman.",
+    github: "https://github.com/darpan005/JobTrack-.NET-",
+    image: "/projects/Job-app-track.png",
+  },
+
+  {
+    title: "Library Management REST API",
+    description:
+      "A backend REST API designed for managing library records and resources. Built with clean architecture, robust CRUD endpoints, relational data handling via EF Core, and documented with Swagger.",
+    github: "https://github.com/darpan005/LibraryAPI-.NET",
+    image: "/projects/library-management.png",
+  },
+
   {
     title: "Rewind AI",
     description:
@@ -13,7 +29,7 @@ const projects = [
   },
 
   {
-    title: "Job Application Tracker",
+    title: "Job Application Tracker(MERN)",
     description:
       "A React application that helps users organize and track job applications. Users can add, edit, delete, and manage application status using Local Storage.",
     github: "https://github.com/darpan005/Job_Application_Tracker",
@@ -22,7 +38,7 @@ const projects = [
   },
 
   {
-    title: "Movie Search App",
+    title: "Movie Search App(MERN)",
     description:
       "A React application that fetches movie information from the OMDb API. Users can search movies and view posters, ratings, release year, and other details.",
     github: "https://github.com/darpan005/Mern_Stack",
@@ -31,7 +47,7 @@ const projects = [
   },
 
   {
-    title: "Expense Tracker",
+    title: "Expense Tracker(MERN)",
     description:
       "A React expense tracker that allows users to add, categorize, filter, and manage expenses while storing data locally in the browser.",
     github: "https://github.com/darpan005/Mern_Stack",
@@ -40,7 +56,7 @@ const projects = [
   },
 
   {
-    title: "Weather Dashboard",
+    title: "Weather Dashboard(MERN)",
     description:
       "A responsive weather dashboard built with React that displays current weather information using a weather API with a clean and modern interface.",
     github: "https://github.com/darpan005/Weather-Dashboard",
